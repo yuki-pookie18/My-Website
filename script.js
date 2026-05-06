@@ -12,7 +12,7 @@ let audioContext;
 
 const storedTheme = localStorage.getItem("portfolio-theme");
 setTheme(storedTheme || "light");
-setSoundState(false);
+setSoundState(true);
 
 themeToggle.addEventListener("click", () => {
   const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
