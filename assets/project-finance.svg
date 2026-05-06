@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Finance Tracker preview">
+  <rect width="320" height="240" rx="16" fill="#fff7d7"/>
+  <rect x="34" y="28" width="252" height="184" rx="12" fill="#fffdf2" stroke="#38291d" stroke-width="8"/>
+  <rect x="56" y="58" width="74" height="118" rx="8" fill="#8ccfba" stroke="#38291d" stroke-width="6"/>
+  <rect x="148" y="126" width="42" height="50" rx="7" fill="#ffd36e" stroke="#38291d" stroke-width="6"/>
+  <rect x="206" y="86" width="42" height="90" rx="7" fill="#ff8fb1" stroke="#38291d" stroke-width="6"/>
+  <path d="M68 78h50M68 101h38M68 124h50M68 147h30" stroke="#38291d" stroke-width="6" stroke-linecap="round"/>
+  <path d="M154 69h96" stroke="#38291d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="258" cy="68" r="11" fill="#9fb7ff" stroke="#38291d" stroke-width="5"/>
+</svg>

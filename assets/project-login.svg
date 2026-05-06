@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Login page multi-user support preview">
+  <rect width="320" height="240" rx="16" fill="#dfe7ff"/>
+  <rect x="45" y="32" width="230" height="176" rx="14" fill="#fffdf2" stroke="#38291d" stroke-width="8"/>
+  <circle cx="111" cy="88" r="24" fill="#8ccfba" stroke="#38291d" stroke-width="7"/>
+  <path d="M72 166c8-29 26-43 54-43s46 14 54 43" fill="#ffd36e" stroke="#38291d" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="177" y="67" width="64" height="23" rx="6" fill="#ff8fb1" stroke="#38291d" stroke-width="5"/>
+  <rect x="177" y="107" width="64" height="23" rx="6" fill="#8ccfba" stroke="#38291d" stroke-width="5"/>
+  <rect x="177" y="147" width="45" height="23" rx="6" fill="#ffd36e" stroke="#38291d" stroke-width="5"/>
+  <circle cx="242" cy="154" r="13" fill="#9fb7ff" stroke="#38291d" stroke-width="5"/>
+</svg>

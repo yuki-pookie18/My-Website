@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Agon Augusta's playful desktop-style frontend portfolio with light and dark mode.">
+    <title>Agon Augusta's Portfolio Desktop</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="desktop" id="desktop">
+      <div class="grain" aria-hidden="true"></div>
+      <header class="topbar" aria-label="Desktop controls">
+        <a class="brand-chip" href="#home" aria-label="Go home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>home</span>
+        </a>
+
+        <div class="topbar-actions">
+          <button class="control-btn" id="soundToggle" type="button" aria-pressed="false" aria-label="Sound effects off">
+            <span class="sunken-icon" aria-hidden="true">sfx</span>
+            <span class="sfx-status" aria-hidden="true">off</span>
+          </button>
+          <button class="control-btn" id="themeToggle" type="button" aria-pressed="false">
+            <span class="theme-glyph" aria-hidden="true"></span>
+            <span class="sr-only">Toggle light and dark mode</span>
+          </button>
+        </div>
+      </header>
+
+      <section class="home-panel" id="home" aria-labelledby="intro-title">
+        <div class="home-copy">
+          <p class="kicker">welcome to my tiny desktop</p>
+          <h1 id="intro-title">hi! i&apos;m Agon Augusta</h1>
+          <p class="subtitle">learning front-end development</p>
+        </div>
+
+        <div class="desktop-icons" aria-label="Portfolio folders">
+          <button class="desktop-icon" type="button" data-window="about">
+            <img src="assets/icon-about.svg" alt="">
+            <span>about</span>
+          </button>
+          <button class="desktop-icon" type="button" data-window="links">
+            <img src="assets/icon-links.svg" alt="">
+            <span>links</span>
+          </button>
+          <button class="desktop-icon" type="button" data-window="work">
+            <img src="assets/icon-work.svg" alt="">
+            <span>work</span>
+          </button>
+          <button class="desktop-icon" type="button" data-window="faq">
+            <img src="assets/icon-faq.svg" alt="">
+            <span>faq</span>
+          </button>
+          <button class="desktop-icon" type="button" data-window="contact">
+            <img src="assets/icon-contact.svg" alt="">
+            <span>contact</span>
+          </button>
+          <button class="desktop-icon accent-icon" type="button" data-window="downloads">
+            <img src="assets/icon-downloads.svg" alt="">
+            <span>fun stuff</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="window" id="window-about" data-window-panel="about" style="--x: 6vw; --y: 25vh; --w: 420px;" aria-labelledby="about-title">
+        <div class="window-titlebar">
+          <span class="window-title" id="about-title">about</span>
+          <button class="window-close" type="button" data-close="about" aria-label="Close about window">x</button>
+        </div>
+        <div class="window-body">
+          <div class="profile-card">
+            <img class="avatar" src="assets/avatar.svg" alt="Illustrated avatar placeholder">
+            <div>
+              <h2>Agon Augusta</h2>
+              <p class="muted">Learning front-end development</p>
+            </div>
+          </div>
+          <hr>
+          <p>
+            Coffee, cigarettes, and a browser tab full of experiments. I am learning
+            front-end development by building small projects with HTML, CSS, JavaScript,
+            media pipeline ideas, and Electron.
+          </p>
+          <ul class="soft-list">
+            <li>building responsive web pages</li>
+            <li>learning real-time media pipeline work</li>
+            <li>exploring Electron apps</li>
+            <li>making JavaScript projects that feel personal</li>
+          </ul>
+          <div class="mini-section">
+            <h3>currently</h3>
+            <p>Learning, shipping, breaking things, and getting better one project at a time.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="window-links" data-window-panel="links" style="--x: 55vw; --y: 20vh; --w: 350px;" aria-labelledby="links-title">
+        <div class="window-titlebar">
+          <span class="window-title" id="links-title">links</span>
+          <button class="window-close" type="button" data-close="links" aria-label="Close links window">x</button>
+        </div>
+        <div class="window-body">
+          <div class="link-grid">
+            <a href="https://github.com/yuki-pookie18" target="_blank" rel="noreferrer">github</a>
+            <a href="https://www.instagram.com/agon_augusta/" target="_blank" rel="noreferrer">instagram</a>
+            <a href="mailto:itsdevasishh@gmail.com">email</a>
+          </div>
+          <p class="tiny-note">Socials and contact links you shared.</p>
+        </div>
+      </section>
+
+      <section class="window wide-window" id="window-work" data-window-panel="work" style="--x: 34vw; --y: 34vh; --w: 560px;" aria-labelledby="work-title">
+        <div class="window-titlebar">
+          <span class="window-title" id="work-title">work</span>
+          <button class="window-close" type="button" data-close="work" aria-label="Close work window">x</button>
+        </div>
+        <div class="window-body">
+          <p class="notice">Learning frontend through small, real projects built with HTML, CSS, JavaScript, media pipeline experiments, and Electron curiosity.</p>
+
+          <div class="tag-row" aria-label="Skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Media Pipeline</span>
+            <span>Electron</span>
+          </div>
+
+          <hr>
+
+          <h3>featured projects</h3>
+          <article class="project">
+            <img src="assets/project-pushup.svg" alt="Pushup Counter project preview">
+            <div>
+              <h4>Pushup Counter</h4>
+              <p>Real-time push-up counter built with JavaScript and media pipeline work.</p>
+              <a href="https://github.com/yuki-pookie18/Pushup-Counter" target="_blank" rel="noreferrer" aria-label="View Pushup Counter on GitHub">view on github</a>
+            </div>
+          </article>
+          <article class="project">
+            <img src="assets/project-finance.svg" alt="Finance Tracker project preview">
+            <div>
+              <h4>Finance Tracker</h4>
+              <p>A place to track financial habits. A new update is coming for login support.</p>
+              <a href="https://github.com/yuki-pookie18/Finance-Tracker" target="_blank" rel="noreferrer" aria-label="View Finance Tracker on GitHub">view on github</a>
+            </div>
+          </article>
+          <article class="project">
+            <img src="assets/project-loveletter.svg" alt="LoveLetter project preview">
+            <div>
+              <h4>LoveLetter</h4>
+              <p>A Valentine&apos;s Day love letter where no is not an option &gt;3.</p>
+              <a href="http://github.com/yuki-pookie18/LoveLetter" target="_blank" rel="noreferrer" aria-label="View LoveLetter on GitHub">view on github</a>
+            </div>
+          </article>
+          <article class="project">
+            <img src="assets/project-login.svg" alt="Login page multi-user support project preview">
+            <div>
+              <h4>Login Page Multi-User Support</h4>
+              <p>A login page made for multiple users using local storage.</p>
+              <a href="https://github.com/yuki-pookie18/Login-page-multiUser-support-" target="_blank" rel="noreferrer" aria-label="View Login Page Multi-User Support on GitHub">view on github</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="window" id="window-faq" data-window-panel="faq" style="--x: 12vw; --y: 55vh; --w: 360px;" aria-labelledby="faq-title">
+        <div class="window-titlebar">
+          <span class="window-title" id="faq-title">faq</span>
+          <button class="window-close" type="button" data-close="faq" aria-label="Close faq window">x</button>
+        </div>
+        <div class="window-body">
+          <details open>
+            <summary>What is your relationship status?</summary>
+            <p>Proudly single.</p>
+          </details>
+          <details>
+            <summary>What is your age?</summary>
+            <p>19.</p>
+          </details>
+          <details>
+            <summary>What are you doing right now?</summary>
+            <p>Applying for colleges, ughh.</p>
+          </details>
+          <details>
+            <summary>Where do you currently live?</summary>
+            <p>Shillong.</p>
+          </details>
+          <details>
+            <summary>How long have you been coding?</summary>
+            <p>8 months.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="window" id="window-contact" data-window-panel="contact" style="--x: 62vw; --y: 50vh; --w: 390px;" aria-labelledby="contact-title">
+        <div class="window-titlebar">
+          <span class="window-title" id="contact-title">contact</span>
+          <button class="window-close" type="button" data-close="contact" aria-label="Close contact window">x</button>
+        </div>
+        <div class="window-body contact-body">
+          <img src="assets/mail.svg" alt="Envelope illustration">
+          <h2 id="mail-heading">yay, mail!</h2>
+          <p>The easiest way to reach me is by email.</p>
+          <a class="mail-button" href="mailto:itsdevasishh@gmail.com">send me an email</a>
+        </div>
+      </section>
+
+      <section class="window downloads-window" id="window-downloads" data-window-panel="downloads" style="--x: 47vw; --y: 62vh; --w: 430px;" aria-labelledby="downloads-title">
+        <div class="window-titlebar">
+          <span class="window-title" id="downloads-title">fun stuff</span>
+          <button class="window-close" type="button" data-close="downloads" aria-label="Close fun stuff window">x</button>
+        </div>
+        <div class="window-body">
+          <p>A tiny status board for what I am learning and building next.</p>
+          <div class="download-list">
+            <a href="https://github.com/yuki-pookie18" target="_blank" rel="noreferrer">
+              <span class="file-icon">git</span>
+              <span>
+                <strong>GitHub Lab</strong>
+                <small>all public experiments</small>
+              </span>
+            </a>
+            <a href="https://github.com/yuki-pookie18/Finance-Tracker" target="_blank" rel="noreferrer">
+              <span class="file-icon">new</span>
+              <span>
+                <strong>Next Update</strong>
+                <small>Finance Tracker login support</small>
+              </span>
+            </a>
+            <a href="mailto:itsdevasishh@gmail.com">
+              <span class="file-icon">@</span>
+              <span>
+                <strong>Email</strong>
+                <small>itsdevasishh@gmail.com</small>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-note">
+        <span>made with tiny windows</span>
+        <span>2026 Agon Augusta</span>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
