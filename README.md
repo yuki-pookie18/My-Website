@@ -19,16 +19,9 @@ A static, desktop-style portfolio inspired by the playful reference site.
 - LoveLetter: http://github.com/yuki-pookie18/LoveLetter
 - Login Page Multi-User Support: https://github.com/yuki-pookie18/Login-page-multiUser-support-
 
-## Edit your details
 
-- Replace the name, email, and project descriptions in `index.html`.
-- Swap the placeholder SVGs in `assets/` with your real art, screenshots, or icons.
-- Tweak the light and dark palettes in `styles.css` under `:root` and `:root[data-theme="dark"]`.
+## Run
+https://yuki-pookie18.github.io/My-Website/
 
-## Run locally
 
-Open `index.html` directly in a browser, or serve the folder:
 
-```bash
-python -m http.server 5173
-```
